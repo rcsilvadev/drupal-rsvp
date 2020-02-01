@@ -33,6 +33,7 @@ module:
   path_alias: 0
   quickedit: 0
   rdf: 0
+  rsvp_events: 0
   rsvp_general: 0
   search: 0
   shortcut: 0

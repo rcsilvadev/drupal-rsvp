@@ -1,0 +1,11 @@
+uuid: ed8f7ace-8a83-44c9-b135-b05b57684b57
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fdN6FJhkhtOtPOraPP7KqrCK3XS218thyv8Iu9rYY3Q
+id: event_attendee
+label: 'Event attendee'
+weight: 3
+is_admin: null
+permissions: {  }

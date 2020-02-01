@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: event_attendee
+label: 'Event attendee'
+weight: 3
+is_admin: null
+permissions: {  }

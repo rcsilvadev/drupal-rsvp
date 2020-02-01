@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: event_attender
-label: 'Event attender'
-weight: 3
-is_admin: null
-permissions: {  }

@@ -1,0 +1,7 @@
+rsvp_general.homepage:
+  path: '/home'
+  defaults:
+    _title: 'Homepage'
+    _controller: '\Drupal\rsvp_general\Controller\HomepageController::content'
+  requirements:
+    _permission: 'access content'

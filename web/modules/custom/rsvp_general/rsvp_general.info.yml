@@ -1,0 +1,5 @@
+name: RSVP General
+type: module
+description: General module for the RSVP Event site, containing site-general blocks, events etc.
+core: '8.x'
+package: 'RSVP EVENT'

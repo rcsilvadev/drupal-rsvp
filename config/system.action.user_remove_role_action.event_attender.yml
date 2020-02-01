@@ -1,0 +1,14 @@
+uuid: 59cb571b-3c29-4d35-9582-57dd1f16b4f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.event_attender
+  module:
+    - user
+id: user_remove_role_action.event_attender
+label: 'Remove the Event attender role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: event_attender

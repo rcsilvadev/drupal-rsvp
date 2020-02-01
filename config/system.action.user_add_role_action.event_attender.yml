@@ -1,0 +1,14 @@
+uuid: 459aa8db-5709-40cb-a3b0-4c66fdd183f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.event_attender
+  module:
+    - user
+id: user_add_role_action.event_attender
+label: 'Add the Event attender role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: event_attender

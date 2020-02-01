@@ -1,0 +1,11 @@
+uuid: e06058d0-257e-4e8e-928b-488956ad032b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mAE3x-BcAxTjGybIv3eSNM-BIO3geTR33NglsVEWMuI
+id: event_attender
+label: 'Event attender'
+weight: 3
+is_admin: null
+permissions: {  }

@@ -24,6 +24,8 @@
         "drupal/devel": "^2.1",
         "drupal/geocoder": "^2.7",
         "drupal/geolocation": "^3.0",
+        "drupal/pathauto": "^1.6",
+        "drupal/time_field": "^1.13",
         "drush/drush": "^10.2"
     },
     "require-dev": {

@@ -1,6 +1,8 @@
-name: RSVP Events
+name: 'RSVP Events'
 type: module
-description: "Provides an Event content type with general event-related features, like upcoming events, full events list,
- RSVP, etc."
-core: '8.x'
+description: 'Provides an Event content type with general event-related features, like upcoming events, full events list, RSVP, etc.'
+core: 8.x
 package: 'RSVP EVENT'
+dependencies:
+  - menu_ui
+  - pathauto

@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_address_coordinates
+  module:
+    - geocoder_field
+    - geolocation
+    - user
+third_party_settings:
+  geocoder_field:
+    method: source
+    weight: 0
+    geocode_field: field_address
+    reverse_geocode_field: ''
+    skip_not_empty_value: 0
+    disabled: false
+    hidden: true
+    plugins:
+      - bingmaps
+    dumper: geolocation
+    delta_handling: s_to_m
+    failure:
+      handling: preserve
+      status_message: true
+      log: true
+id: user.user.field_address_coordinates
+field_name: field_address_coordinates
+entity_type: user
+bundle: user
+label: 'Address coordinates'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

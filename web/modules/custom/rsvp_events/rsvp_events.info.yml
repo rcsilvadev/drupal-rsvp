@@ -4,5 +4,10 @@ description: 'Provides an Event content type with general event-related features
 core: 8.x
 package: 'RSVP EVENT'
 dependencies:
-  - menu_ui
-  - pathauto
+  0: menu_ui
+  1: pathauto
+  2: datetime
+  3: image
+  4: node
+  5: text
+  6: user

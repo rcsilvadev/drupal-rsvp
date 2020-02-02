@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Provides an Event content type with general event-related features
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function rsvp_events_theme() {
+  return [
+    'rsvp_form_block' => [
+      'variables' => ['form' => NULL],
+      'template' => 'rsvp-form-block',
+    ],
+  ];
+}

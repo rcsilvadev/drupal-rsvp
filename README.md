@@ -42,3 +42,4 @@ I'm commiting some files that we don't usually do just to make the testing easie
 proper infrastructure using Docker and the powerful Makefile.
 
 I've developed this site using **MySQL 5.7.28**, **PHP 7.3.13**, and **Httpd 2.4.41**, in **Ubuntu 19.04*.*
+Also, please run **composer install** on the first time you will be testing the project.

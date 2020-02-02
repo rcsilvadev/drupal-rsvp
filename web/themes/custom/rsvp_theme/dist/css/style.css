@@ -1,0 +1,48 @@
+.navbar {
+  background: #2CBC75;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-toggler[aria-expanded=false] .icon.icon-hamburger-menu:before {
+  display: block;
+  content: " ";
+  background-image: url("../images/icon-hamburger.svg");
+  background-size: 1.3125rem 1rem;
+  height: 1rem;
+  width: 1.3125rem;
+}
+.navbar .navbar-toggler[aria-expanded=true] .icon:before {
+  display: block;
+  content: " ";
+  background-image: url("../images/icon-close.svg");
+  background-size: 1.3125rem 1rem;
+  height: 1rem;
+  width: 1.3125rem;
+}
+
+.icon.icon-hamburger-menu:before {
+  display: block;
+  content: " ";
+  background-image: url("../images/icon-hamburger.svg");
+  background-size: 1.3125rem 1rem;
+  height: 1rem;
+  width: 1.3125rem;
+}
+.icon.icon-close:before {
+  display: block;
+  content: " ";
+  background-image: url("../images/icon-close.svg");
+  background-size: 1.3125rem 1rem;
+  height: 1rem;
+  width: 1.3125rem;
+}
+
+.block-system-branding-block {
+  margin: 0 auto;
+}
+.block-system-branding-block .site-logo img {
+  max-width: 8rem;
+}
+
+/*# sourceMappingURL=style.css.map */

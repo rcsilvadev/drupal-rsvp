@@ -1,0 +1,17 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      dist/css/style.css: {}
+  js:
+    dist/js/main.js: {}
+
+bootstrap:
+  css:
+    layout:
+      dist/css/bootstrap/bootstrap.min.css: { minified: true }
+  js:
+    dist/js/bootstrap/bootstrap.min.js: { minified: true }
+    dist/js/bootstrap/popper.min.js: { minified: true }
+  dependencies:
+    - core/jquery

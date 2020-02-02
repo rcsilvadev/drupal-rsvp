@@ -1,0 +1,9 @@
+rsvp_events.attendees_report:
+  path: '/admin/config/rsvp_events/attendees_report'
+  defaults:
+    _controller: '\Drupal\rsvp_events\Controller\AttendeesReportController::content'
+    _title: 'Attendees report'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _role: 'administrator'

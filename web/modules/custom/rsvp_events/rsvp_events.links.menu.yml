@@ -1,0 +1,5 @@
+rsvp_events.attendees_report:
+  title: 'Attendees Report'
+  parent: system.admin_config_system
+  description: "View the Attendees and what events they had RSVP'd"
+  route_name: rsvp_events.attendees_report

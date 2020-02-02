@@ -1,0 +1,23 @@
+uuid: d3904984-8411-40c0-a41a-b27cb69c3917
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_address
+    - field.field.user.user.field_address_coordinates
+    - field.field.user.user.field_name
+  module:
+    - user
+_core:
+  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content: {  }
+hidden:
+  field_address: true
+  field_address_coordinates: true
+  field_name: true
+  member_for: true

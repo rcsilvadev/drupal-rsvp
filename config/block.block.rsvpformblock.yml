@@ -1,0 +1,28 @@
+uuid: bebb381d-f95f-4549-b49d-867f388f9930
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rsvp_events
+  theme:
+    - bartik
+id: rsvpformblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: rsvp_form_block
+settings:
+  id: rsvp_form_block
+  label: 'RSVP Form Block'
+  provider: rsvp_events
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

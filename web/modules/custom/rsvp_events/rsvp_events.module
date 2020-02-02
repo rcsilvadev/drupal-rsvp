@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Main module file
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function rsvp_events_theme() {
+  return [
+    'rsvp_form_block' => [
+      'variables' => ['form' => NULL],
+      'template' => 'rsvp-form-block',
+    ],
+  ];
+}

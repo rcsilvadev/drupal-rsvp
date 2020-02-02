@@ -1,0 +1,23 @@
+uuid: d29a5ebd-eec6-42ae-a056-6c5ec1db43ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - rsvp_general
+  theme:
+    - bartik
+id: socialnetworks
+theme: bartik
+region: footer_second
+weight: 0
+provider: null
+plugin: social_networks
+settings:
+  id: social_networks
+  label: 'Social Networks'
+  provider: rsvp_general
+  label_display: '0'
+  facebook: 'https://www.facebook.com/'
+  twitter: 'https://twitter.com/'
+  instagram: 'https://www.instagram.com/'
+visibility: {  }

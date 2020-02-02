@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Main module file
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function rsvp_general_theme() {
+  return [
+    'social_networks_block' => [
+      'variables' => ['social_networks' => NULL],
+      'template' => 'social-network-blocks',
+    ],
+  ];
+}

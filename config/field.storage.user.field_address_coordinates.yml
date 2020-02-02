@@ -1,0 +1,19 @@
+uuid: f44fd013-e8b3-47d3-afd1-839e6003b84f
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - user
+id: user.field_address_coordinates
+field_name: field_address_coordinates
+entity_type: user
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

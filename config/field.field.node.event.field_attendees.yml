@@ -18,12 +18,12 @@ default_value_callback: ''
 settings:
   handler: 'default:user'
   handler_settings:
-    include_anonymous: false
+    include_anonymous: true
     filter:
       type: role
       role:
+        administrator: administrator
         event_attendee: event_attendee
-        administrator: '0'
     target_bundles: null
     sort:
       field: _none

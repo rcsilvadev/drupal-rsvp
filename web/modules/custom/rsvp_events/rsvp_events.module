@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Provides an Event content type with general event-related features
+ * Main module file
  */
 
 /**
